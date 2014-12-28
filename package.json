@@ -1,0 +1,19 @@
+{
+  "name": "threadsWatcher",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kurahen-Premium/Threads-watcher.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-jsbeautifier": "^0.2.7",
+    "grunt-string-replace": "^1.0.0",
+    "grunt-ts": "^2.0.0",
+    "grunt-tslint": "^1.0.1"
+  },
+  "scripts": {
+    "test": "grunt --verbose"
+  }
+}

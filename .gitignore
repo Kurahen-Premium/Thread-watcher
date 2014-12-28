@@ -1,0 +1,16 @@
+# IntelliJ IDEA
+/.idea/dictionaries
+/.idea/workspace.xml
+
+# Windows
+Thumbs.db
+
+# Dev
+/node_modules/
+/.tscache/
+tscommand-*.tmp.txt
+
+/threadsWatcher.js
+
+#Visual Studio
+/vs/
