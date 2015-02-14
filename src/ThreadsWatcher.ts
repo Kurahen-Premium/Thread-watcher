@@ -350,7 +350,7 @@ class ThreadsWatcher {
 			var parser = new DOMParser();
 			var doc = parser.parseFromString(request.responseText, 'text/html');
 
-			var postsContainers = doc.getElementsByClassName('postContainer');
+			var postsContainers = doc.querySelectorAll('.thread .postContainer');
 			var numberOfNewPosts = 0;
 			for (var i = 0; i < postsContainers.length; i++) {
 				if (self.parsePostId(postsContainers[i]) === lastPostId) {
